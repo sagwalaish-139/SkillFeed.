@@ -110,8 +110,7 @@ body {
   background: linear-gradient(180deg, #f7f9ff, #ffffff);
    text-align: center;
     padding: 120px 20px;
-/* 
-    background-image: url("https://images.unsplash.com/photo-1560529870-1efc5a43990f?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fHNvY2lhbCUyMG1lZGlhJTIwd2Vic2l0ZSUyMGJhY2tncm91bmQlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D"); */
+
     background-image:url("https://media.istockphoto.com/id/1305999733/photo/web-design-desktop.jpg?s=612x612&w=0&k=20&c=mdGnzSrhUGijPuXHR3vA_hrQyshToudcJc8A50L0a9I=");
     background-size: cover;
     background-repeat: no-repeat;
