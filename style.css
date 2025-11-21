@@ -4,16 +4,7 @@ body {
   background:white;
    color: #333; 
 
-  /* body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    background-image: url("https://images.unsplash.com/photo-1503264116251-35a269479413?q=80&w=1200");
-    background-size: cover;       
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-attachment: fixed; 
-} */
+
 
  
 }
@@ -791,4 +782,158 @@ input {
     width: 95%;
     border-radius: 14px;
 }
+/* ===========================================
+   📱 MOBILE DEVICES (max-width: 768px)
+   =========================================== */
+@media (max-width: 768px) {
+
+  /* Navbar */
+  .navbar {
+    flex-direction: column;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 10px;
+  }
+
+  .auth-buttons {
+    margin-top: 12px;
+  }
+
+  /* Hero Section */
+  .hero {
+    padding: 70px 20px;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 16px;
+    max-width: 90%;
+  }
+
+  .cta-btn {
+    padding: 12px 24px;
+    font-size: 16px;
+  }
+
+  /* Features */
+  .features {
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    padding: 40px 0;
+  }
+
+  .feature-item {
+    max-width: 90%;
+  }
+
+  /* Cards */
+  .card-grid {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+  }
+
+  .card img {
+    height: 200px;
+  }
+
+  /* Join Section */
+  .join h2 {
+    font-size: 26px;
+  }
+
+  .join p {
+    font-size: 16px;
+  }
+
+  /* Upload Page */
+  .upload-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .right-image img {
+    width: 100%;
+  }
+
+  /* Signup Page */
+  .signup-container {
+    flex-direction: column;
+    padding: 25px;
+  }
+
+  .right-box {
+    display: none;  /* hides big preview image on phone */
+  }
+
+  .left-box {
+    width: 100%;
+  }
+
+}
+
+
+/* ===========================================
+   📱 SMALL MOBILES (max-width: 480px)
+   =========================================== */
+@media (max-width: 480px) {
+
+  .logo {
+    font-size: 20px;
+  }
+
+  .hero h1 {
+    font-size: 26px;
+  }
+
+  .hero p {
+    font-size: 15px;
+  }
+
+  .cta-btn {
+    font-size: 15px;
+    padding: 10px 20px;
+  }
+
+  .card img {
+    height: 180px;
+  }
+}
+
+
+/* ===========================================
+   💻 TABLETS (max-width: 1024px)
+   =========================================== */
+@media (max-width: 1024px) {
+
+  .features {
+    gap: 40px;
+  }
+
+  .upload-container,
+  .signup-container {
+    gap: 20px;
+  }
+
+  .right-image img {
+    width: 280px;
+  }
+
+  .preview-img {
+    width: 80%;
+  }
+}
+
+
+
+
+
 
