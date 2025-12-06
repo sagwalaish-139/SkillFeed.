@@ -13,6 +13,8 @@
  
     
     <div class="logo">SkillFeed</div>
+   
+
     
   
 
@@ -97,10 +99,12 @@
       <span class="likes">2134</span>
     </div>
   </div>
+</section>
     
 
 
-  </section>
+
+
 
   
   <section class="join">
@@ -118,7 +122,28 @@
 
         <p>© 2025 SkillFeed | Learn. Share. Grow.</p>
     </footer>
-    <script src="style.js"></script>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+    <script >
+      const heroTitle = document.querySelector('.hero h1');
+
+if (heroTitle) {
+  heroTitle.addEventListener('mouseover', () => {
+    heroTitle.innerText = "Unleash Your Creativity";
+  });
+
+  heroTitle.addEventListener('mouseout', () => {
+    heroTitle.innerText = "Show Your Skills to the World";
+  });
+}
+
+
+
+</script>
+
+
+
+    </script>
 
 
 

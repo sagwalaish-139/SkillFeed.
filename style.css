@@ -779,26 +779,90 @@ input {
     border-radius: 14px;
 }
 
-@media (max-width: 480px) {
 
-  .logo {
-    font-size: 20px;
-  }
 
-  .hero h1 {
-    font-size: 26px;
-  }
 
-  .hero p {
-    font-size: 15px;
-  }
 
-  .cta-btn {
-    font-size: 15px;
-    padding: 10px 20px;
-  }
 
-  .card img {
-    height: 180px;
-  }
+
+
+@media (max-width: 1024px) {
+    
+    .hero h1 { font-size: 36px; }
+    .hero p { font-size: 18px; }
+    .features { flex-wrap: wrap; gap: 30px; }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 90px 20px;
+        background-position: center;
+    }
+
+    .card-grid {
+        grid-template-columns: 1fr;
+        padding: 0 20px;
+    }
+
+    .upload-container,
+    .signup-container {
+        flex-direction: column;
+    }
+
+     .right-image img,
+    .preview-img {
+        width: 100%;
+    }
+}
+@media (max-width: 500px) {
+    .navbar {
+        padding:2px;
+        gap:2px;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .nav-links a {
+        font-size: 10px;
+    }
+
+    .auth-buttons {
+        flex-direction:row;
+        gap: 5px;
+        width: 100%;
+    }
+
+    .auth-buttons a {
+        padding: 5px;
+        font-size:7px;
+        width: 100%;
+        text-align: center;
+    }
+    .logo{font-size: 15px;}
+
+    .hero h1 { font-size: 28px; }
+    .hero p { font-size: 16px; }
+
+    .cta-btn { padding: 12px 20px; font-size: 16px; }
+
+    .feature-item {
+        max-width: 100%;
+    }
+
+    .card img {
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .upload-container,
+    .signup-container {
+        padding: 20px;
+    }
+
+    input, textarea {
+        font-size: 14px;
+        padding: 10px;
+    }
 }
